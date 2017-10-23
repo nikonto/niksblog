@@ -1,0 +1,360 @@
+/*
+Authore: Nikhil Musale;
+*/
+
+
+/* clearfix code*/
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+/*--------------------------*/
+body{
+	font-family: Arial;
+	font-style: 12px;
+	color: #333;
+}
+
+p.foo{
+	line-height: 1.50cm;
+}
+
+a:link,
+a:visited{
+	color: #80d4ff;
+}
+
+div.contain{
+	max-width: 920px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.site-header{
+	border-bottom: 2px solid #999;
+}
+
+.site-footer{
+	margin-top: 30px;
+	border-top: 2px solid #999;
+}
+
+article.post{
+	border-bottom: dotted #bbb;
+}
+
+article.post:last-of-type{
+	border-bottom: none;
+}
+
+/* Navigation Menus */
+
+nav.site-nav ul{
+	margin: 0;
+	padding: 0;
+	padding-bottom: 39px;
+}
+
+.site-nav ul li{
+	list-style: none;
+	float: left;
+	display: block;
+}
+
+/* Site header menu */
+.site-header nav ul li{
+	margin-right: 5px;
+}
+
+/*site-footer menu*/
+
+/*.site-footer nav ul li{
+	padding-top: 38px;
+}*/
+
+
+/*header menu*/
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited{
+	display: block;
+	padding: 10px 18px;
+	border: 1px solid #bbb;
+	border-bottom: none;
+	text-decoration: none;
+}
+
+.site-header nav ul li a:hover{
+	background-color: #ececec;
+}
+
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited,
+.site-header nav ul li.current-page-ancestor a:link,
+.site-header nav ul li.current-page-ancestor a:visited{
+	background-color: #006ec3;
+	color: #fff;
+}
+
+/*footer*/
+
+
+.site-footer nav ul li{
+	margin-right: 15px;
+	padding-right: 10px;
+	border-right: 1px dotted;
+	}
+
+/*site-footer menu*/
+
+.site-footer nav ul li{
+	padding-top: 5px;
+}
+
+.site-footer nav ul{
+	margin-top: 210px;
+}
+/*special-page laout*/
+.info-box{
+	width: 30%;
+	margin:0 0 30px 30px;
+	padding:20px;
+	background-color:#eee;
+	float: right;
+}
+
+.info-box h4{
+	margin-bottom: 6px;
+}
+.info-box p{
+	font-size: 85%;
+}
+
+/*children links*/
+.children-links{
+	margin-bottom: 20px;
+	font-size: 80%;
+}
+
+
+.children-links li{
+	margin-right: 20px;
+}
+
+/*.children-links ul{
+	margin-top: 50px;
+}*/
+
+.children-links .parent-link{
+	float: left;
+	margin-right: 20px;
+	padding-right: 20px;
+	border-right: 1px solid #ddd;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+
+.children-links a:link,
+.children-links a:visited{
+	text-decoration: none;
+}
+
+.children-links .parent-link a:link,
+.children-links .parent-link a:visited{
+	color: #333;
+}
+
+.children-links .current_page_item a:link,
+.children-links .current_page_item a:visited{
+	border-bottom: 1px solid #ddd;
+	color: #333;
+	cursor: default;
+}
+
+/*post style*/
+.post h2{
+	margin-bottom: 0;
+}
+
+.post-info{
+	font-size: 87%;
+	color: #999;
+}
+
+.post-info a:link,
+.post-info a:visited{
+	color: #999;
+}
+
+/* Image Styles*/
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.has-thumbnail{
+	position: relative;
+	padding-left: 200px;
+}
+
+.post-thumbnail{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* header search*/
+
+.hd-search{
+	float: right;
+}
+
+.hd-search label{
+	position: absolute;
+	left: -9999px;
+}
+
+.hd-search #searchsubmit{
+	background-color: #006ec3;
+	color: #fff;
+	padding: 5px 14px;
+	border:none;
+	vertical-align: top;
+}
+
+.hd-search #s{
+	vertical-align: top;
+	padding: 3px 0;
+}
+
+/*style aside*/
+article.post-aside,
+article.post-link{
+	font-size: 125%;
+	background-color: #fff5cb;
+	padding: 20px;
+	margin-top: 5px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px rgba(0,0,0,.1);
+}
+
+.mini-meta{
+	font-size: 68%;
+	margin: 0;
+	color: #777;
+}
+
+/* Link post format*/
+article.post-link{
+	padding: 0;
+	background-color: #e0ebff;
+}
+
+article.post-link a{
+	display: block;
+	padding: 20px;
+}
+
+/*post format gallery styles*/
+
+article.post-gallery{
+	background-color: #222;
+	color: #fff;
+	padding: 20px;
+
+}
+
+article.post-gallery h2{
+	text-align: center;
+}
+
+article.post-gallery img{
+	border: none;
+}
+
+/*main column*/
+.main-column{
+	width: 66%;
+	float: left;
+}
+
+.secondry-column{
+	width: 33%;
+	float: right;
+}
+
+/*footer widget area*/
+.footer-widgets-area{
+	width: 25%;
+	float: left;
+	padding-right: 40px;
+	box-sizing: border-box;
+}
+
+/*post columns*/
+
+.one-half{
+	border-top: dotted;
+	
+}
+
+.one-half{
+	width: 45%;
+	float: left;
+	margin-right: 10%;
+
+}
+
+.last{
+	margin-right: 0;
+}
+
+.home-columns{
+	padding-top: 30px;
+}
+
+.thumb{
+	float: left;
+}
+
+/* footer call out section*/
+.footer-callout{
+	background-color: #ddd;
+	padding: 20px;
+	margin: 30px 0 0 0;  
+}
+
+.footer-callout-image{
+	float: left;
+	width: 30%;
+}
+
+.footer-callout-text{
+	float: right;
+	width: 67%;
+}
+
+
+.footer-callout-text h2{
+	font-size: 1.7rem;
+	margin: 0 0 .35rem 0;
+
+}
+
+.footer-callout-text p{
+	font-size: 0.9rem;
+}
+
+/* footer navigation*/
+.site-footer nav ul{
+	border-top: dotted;
+	margin-top: 10px;
+}
+
